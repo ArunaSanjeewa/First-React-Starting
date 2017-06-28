@@ -119,7 +119,8 @@
 			},
 			componentWillMount(){
 				if (this.props.count) {
-					var url ="http://baconipsum.com/api/?type=all-meat&sentences=20"
+				
+					var url ="https://baconipsum.com/api/?type=all-meat&sentences=20"
 					console.log(url)
 					fetch(url)
 					.then(results=>results.json())
